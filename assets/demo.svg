@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1120" width="880" height="1120" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfcfe"/>
+      <stop offset="1" stop-color="#eef1f6"/>
+    </linearGradient>
+    <linearGradient id="userB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="aiHead" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="880" height="1120" fill="url(#bg)"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="880" height="64" fill="url(#aiHead)"/>
+  <circle cx="34" cy="32" r="13" fill="#818cf8"/>
+  <circle cx="34" cy="28" r="4.5" fill="#fff" opacity="0.9"/>
+  <path d="M26 40 Q34 34 42 40 L42 44 L26 44 Z" fill="#fff" opacity="0.9"/>
+  <text x="56" y="29" fill="#e2e8f0" font-size="15" font-weight="700">认知分析镜 · Cognitive Mirror</text>
+  <text x="56" y="46" fill="#94a3b8" font-size="11.5">五维度框架 · 多轮迭代分析</text>
+  <circle cx="840" cy="32" r="4" fill="#34d399"/>
+  <text x="820" y="36" fill="#94a3b8" font-size="11" text-anchor="end">已激活</text>
+
+  <!-- user message bubble -->
+  <g filter="url(#sh)">
+    <rect x="150" y="88" width="700" height="86" rx="14" fill="url(#userB)"/>
+  </g>
+  <text x="172" y="114" fill="#fff" font-size="13" font-weight="700">用户</text>
+  <text x="172" y="138" fill="#f1f5f9" font-size="13">我最近总觉得做什么都没劲，但又停不下来刷手机。</text>
+  <text x="172" y="158" fill="#f1f5f9" font-size="13">好像只有不停接收信息才觉得"活着"，停下来就空。</text>
+  <text x="172" y="178" fill="#c7d2fe" font-size="12.5" font-weight="600">使用认知分析镜</text>
+
+  <!-- AI response panel -->
+  <g filter="url(#sh)">
+    <rect x="30" y="196" width="820" height="890" rx="14" fill="#ffffff"/>
+  </g>
+  <rect x="30" y="196" width="6" height="890" fill="#818cf8"/>
+
+  <!-- AI badge -->
+  <circle cx="56" cy="222" r="11" fill="#0f172a"/>
+  <text x="56" y="226" fill="#818cf8" font-size="11" text-anchor="middle" font-weight="700">M</text>
+  <text x="76" y="219" fill="#0f172a" font-size="12.5" font-weight="700">认知分析镜</text>
+  <text x="76" y="234" fill="#94a3b8" font-size="10.5">第一轮 · 系统拆解</text>
+
+  <line x1="46" y1="250" x2="834" y2="250" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- 引用 -->
+  <text x="46" y="272" fill="#475569" font-size="11.5" font-weight="700">▎本轮引用</text>
+  <text x="46" y="290" fill="#475569" font-size="11">"做什么都没劲，但停不下来刷手机；只有不停接收信息才觉得'活着'，停下来就空。"</text>
+
+  <!-- 五维度 -->
+  <text x="46" y="316" fill="#0f172a" font-size="11.5" font-weight="700">▎五维度拆解</text>
+
+  <!-- 维度1 逻辑拓扑 -->
+  <rect x="46" y="326" width="788" height="62" rx="8" fill="#f8fafc"/>
+  <rect x="46" y="326" width="4" height="62" fill="#6366f1"/>
+  <text x="62" y="344" fill="#6366f1" font-size="11" font-weight="700">① 逻辑拓扑</text>
+  <text x="62" y="362" fill="#334155" font-size="10.5">论证呈"悖论闭环"：以"刷手机"缓解"空"，但该行为本身加剧"没劲"。</text>
+  <text x="62" y="378" fill="#64748b" font-size="10">隐含前提：信息输入 = 活着。因果断裂：停顿被等同于"死亡"。</text>
+
+  <!-- 维度2 认知偏差 -->
+  <rect x="46" y="394" width="788" height="58" rx="8" fill="#f8fafc"/>
+  <rect x="46" y="394" width="4" height="58" fill="#8b5cf6"/>
+  <text x="62" y="412" fill="#8b5cf6" font-size="11" font-weight="700">② 认知偏差与锚点</text>
+  <text x="62" y="430" fill="#334155" font-size="10.5">可得性启发：用"刷手机"的可得感受锚定"活着"。隐蔽锚点：对"空白"的恐惧。</text>
+  <text x="62" y="445" fill="#64748b" font-size="10">归因谬误：将"没劲"归因于活动本身，而非持续刺激后的感受阈值上移。</text>
+
+  <!-- 维度3 元认知层级 -->
+  <rect x="46" y="458" width="788" height="58" rx="8" fill="#f8fafc"/>
+  <rect x="46" y="458" width="4" height="58" fill="#0ea5e9"/>
+  <text x="62" y="476" fill="#0ea5e9" font-size="11" font-weight="700">③ 元认知层级</text>
+  <text x="62" y="494" fill="#334155" font-size="10.5">当前处于二阶（观察层）：能反思"停不下来"这一模式本身。</text>
+  <text x="62" y="509" fill="#64748b" font-size="10">尚未抵达三阶：未质疑"信息输入=活着"这条观测规则本身。</text>
+
+  <!-- 维度4 语义密度 -->
+  <rect x="46" y="522" width="788" height="58" rx="8" fill="#f8fafc"/>
+  <rect x="46" y="522" width="4" height="58" fill="#f59e0b"/>
+  <text x="62" y="540" fill="#f59e0b" font-size="11" font-weight="700">④ 语义密度</text>
+  <text x="62" y="558" fill="#334155" font-size="10.5">"没劲"承载三层未区分含义：活动无趣 / 多巴胺耗竭 / 存在性空洞。</text>
+  <text x="62" y="573" fill="#64748b" font-size="10">"活着"的定义空白：是生理在线、情绪流动，还是被持续占满？</text>
+
+  <!-- 维度5 思维时空域 -->
+  <rect x="46" y="586" width="788" height="58" rx="8" fill="#f8fafc"/>
+  <rect x="46" y="586" width="4" height="58" fill="#10b981"/>
+  <text x="62" y="604" fill="#10b981" font-size="11" font-weight="700">⑤ 思维时空域</text>
+  <text x="62" y="622" fill="#334155" font-size="10.5">时间尺度短期因果（即刻缓解 vs 即刻耗竭）；空间聚焦自我内感受。</text>
+  <text x="62" y="637" fill="#64748b" font-size="10">脱节：长期演化的"意义感"被短期刺激循环遮蔽，未进入观察视野。</text>
+
+  <!-- 本轮核心诊断 -->
+  <rect x="46" y="656" width="788" height="68" rx="10" fill="#eef2ff"/>
+  <text x="62" y="676" fill="#4338ca" font-size="11.5" font-weight="700">▎本轮核心诊断</text>
+  <text x="62" y="696" fill="#1e293b" font-size="11">你用一个"持续输入循环"对抗"空白恐惧"，但这个循环本身正在</text>
+  <text x="62" y="713" fill="#1e293b" font-size="11">生产它试图缓解的"没劲"——刺激阈值上移后，安静被误读为死亡。</text>
+
+  <!-- 三个深挖方向 -->
+  <text x="46" y="748" fill="#0f172a" font-size="11.5" font-weight="700">▎可选下一轮深挖方向</text>
+
+  <rect x="46" y="758" width="254" height="76" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="60" y="778" fill="#6366f1" font-size="10.5" font-weight="700">→ 方向 1</text>
+  <text x="60" y="796" fill="#334155" font-size="10.5">"空白恐惧"的来源</text>
+  <text x="60" y="812" fill="#64748b" font-size="9.5">价值：定位锚点何时植入</text>
+
+  <rect x="313" y="758" width="254" height="76" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="327" y="778" fill="#8b5cf6" font-size="10.5" font-weight="700">→ 方向 2</text>
+  <text x="327" y="796" fill="#334155" font-size="10.5">"活着"的真实定义</text>
+  <text x="327" y="812" fill="#64748b" font-size="9.5">价值：澄清语义空白</text>
+
+  <rect x="580" y="758" width="254" height="76" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="594" y="778" fill="#0ea5e9" font-size="10.5" font-weight="700">→ 方向 3</text>
+  <text x="594" y="796" fill="#334155" font-size="10.5">停顿时身体感受</text>
+  <text x="594" y="812" fill="#64748b" font-size="9.5">价值：字面现实 vs 隐喻化</text>
+
+  <!-- footer -->
+  <line x1="46" y1="858" x2="834" y2="858" stroke="#e2e8f0"/>
+  <text x="46" y="880" fill="#94a3b8" font-size="10.5" font-style="italic">提示：选择任一方向继续输出，或自由补充新内容。说"进入总结"即生成完整报告。</text>
+  <text x="46" y="898" fill="#cbd5e1" font-size="10">请决定下一步，我保持跟随。</text>
+
+  <!-- summary teaser -->
+  <rect x="46" y="918" width="788" height="146" rx="10" fill="#0f172a"/>
+  <text x="62" y="942" fill="#818cf8" font-size="11.5" font-weight="700">▎总结报告预览（用户喊"进入总结"后自动生成）</text>
+  <text x="62" y="966" fill="#e2e8f0" font-size="10.5">▸ 对话概览：起止、轮次、主题演进路径</text>
+  <text x="62" y="984" fill="#e2e8f0" font-size="10.5">▸ 全部用户输出原文（按轮次）+ 每轮核心分析摘要</text>
+  <text x="62" y="1002" fill="#e2e8f0" font-size="10.5">▸ 思维演进路径：起始状态 → 关键转变链 → 最终认知基线</text>
+  <text x="62" y="1020" fill="#e2e8f0" font-size="10.5">▸ 关键转折点 · 策略与行动指向 · 残余开放问题</text>
+  <text x="62" y="1048" fill="#64748b" font-size="10" font-style="italic">输出为完整 Markdown，可直接保存或分享。</text>
+</svg>
