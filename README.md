@@ -156,4 +156,8 @@ cognitive-mirror/
 
 ## License
 
-MIT
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)（Creative Commons Attribution-ShareAlike 4.0 International）
+
+Copyright (c) 2026 认知分析镜（Cognitive Mirror）
+
+本仓库内容依据 CC BY-SA 4.0 协议授权：可自由使用、修改、分发，但须署名，且衍生作品须以相同协议（CC BY-SA 4.0）发布——不允许闭源再分发。详见[协议全文](https://creativecommons.org/licenses/by-sa/4.0/legalcode)。
